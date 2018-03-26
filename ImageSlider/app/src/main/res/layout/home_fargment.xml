@@ -1,0 +1,211 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        custom:pager_animation="Accordion"
+        custom:auto_cycle="true"
+        custom:indicator_visibility="visible"
+        custom:pager_animation_span="1100"
+        android:layout_height="250dp"
+       android:background="@drawable/images"/>
+<View
+    android:layout_width="match_parent"
+    android:background="#20b5e5ee"
+    android:layout_height=".7dp"></View>
+   <!-- <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        custom:selected_color="#0095BF"
+        custom:unselected_color="#55333333"
+        custom:selected_drawable="@drawable/bird"
+        custom:shape="oval"
+        custom:selected_padding_left="5dp"
+        custom:selected_padding_right="5dp"
+        custom:unselected_padding_left="5dp"
+        custom:unselected_padding_right="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        custom:selected_width="6dp"
+        custom:selected_height="6dp"
+        custom:unselected_width="6dp"
+        custom:unselected_height="6dp"
+        android:layout_marginBottom="20dp"
+        />
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator2"
+        style="@style/AndroidImageSlider_Corner_Oval_Orange"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />-->
+
+
+
+            <!-- ... -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+      android:id="@+id/layout1"
+
+      >
+        <ImageView
+            android:id="@+id/category1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:scaleType="fitXY"
+            android:layout_marginRight="1dp"
+            />
+        <View
+            android:layout_width=".7dp"
+            android:background="#eee"
+            android:layout_height="match_parent"></View>
+        <ImageView
+            android:id="@+id/category2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:scaleType="fitXY"
+            android:layout_marginRight="1dp"
+           />
+        <View
+            android:layout_width=".7dp"
+            android:background="#eee"
+            android:layout_height="match_parent"></View>
+        <ImageView
+            android:id="@+id/category3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:scaleType="fitXY"
+            />
+        <View
+            android:layout_width="1dp"
+            android:background="#eee"
+            android:layout_height="match_parent"></View>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="#eee"
+            android:layout_height=".7dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:id="@+id/layout2"
+            android:layout_marginBottom="1dp"
+          >
+            <ImageView
+                android:id="@+id/category4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/images"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"/>
+            <View
+                android:layout_width=".7dp"
+                android:background="#eee"
+                android:layout_height="match_parent"></View>
+            <ImageView
+                android:id="@+id/category5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/images"
+                android:scaleType="fitXY"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:id="@+id/layout3"
+            android:layout_marginBottom="1dp">
+            <ImageView
+                android:id="@+id/category6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/images"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"
+                />
+            <View
+                android:layout_width=".7dp"
+                android:background="#eee"
+                android:layout_height="match_parent"></View>
+            <ImageView
+                android:id="@+id/category7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/images"
+                android:layout_marginRight="1dp"
+                android:scaleType="fitXY"/>\
+            <View
+                android:layout_width=".7dp"
+                android:background="#eee"
+                android:layout_height="match_parent"></View>
+            <ImageView
+                android:id="@+id/category8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/images"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="#eee"
+            android:layout_height=".7dp"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/layout4">
+            <ImageView
+                android:id="@+id/category9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/images"
+                android:scaleType="fitXY"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
